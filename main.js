@@ -123,3 +123,5 @@ while (opcao !== 0) {
       break;
   }
 }
+
+//Finalizado. Fiz pelo celular no replit, To sem pc por enquanto
