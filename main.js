@@ -13,4 +13,11 @@ while (opcao !== 0) {
     console.log("4 - Estatísticas");
     console.log("0 - Sair");
 
+  opcao = parseInt(prompt("Opcao: "));
+
+  if(isNaN(opcao)){
+    console.log("Digite um número válido!");
+    continue;
+  }
+
 }
