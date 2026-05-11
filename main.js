@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
 const Livro = require('./Livro');
-const Livro = [];
+const livros = [];
 
 let opcao = -1;
 
@@ -18,6 +18,28 @@ while (opcao !== 0) {
   if(isNaN(opcao)){
     console.log("Digite um número válido!");
     continue;
-  }
+  }  
+
+    switch (opcao){
+      case 1: 
+        break;
+
+      case 2:
+        break;
+
+      case 3:
+        break;
+
+      case 4:
+        break;
+
+      case 0:
+        console.log("Programa encerrado!");
+        break;
+
+      default:
+        console.log("Opção inválida!");
+        break;
+    }
 
 }
